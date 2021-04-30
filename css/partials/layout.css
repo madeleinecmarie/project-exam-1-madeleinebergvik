@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  letter-spacing: 1px;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+}
+
+nav,
+footer {
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-size: 3.125rem;
+}
+
+/* h2 {
+
+}
+
+h3 {
+
+} */
+
+.body_text {
+  font-size: 1.025rem;
+}
+
+.new_line {
+  display: block;
+}

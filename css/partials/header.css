@@ -1,0 +1,60 @@
+.header_img {
+  width: 100%;
+  background-image: url(/img/waves.svg);
+  height: 230px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.wave_img {
+  height: 200px;
+  width: 100%;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-areas: "logo links";
+  color: var(--white);
+  height: 120px;
+  width: 100%;
+}
+
+.logo_div {
+  font-size: 1.3rem;
+  letter-spacing: var(--letter-spacing);
+  grid-area: logo;
+  align-self: center;
+  justify-self: center;
+  width: 75%;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+}
+
+.ul_elements {
+  grid-area: links;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex-end;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+.active {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.active:hover,
+.link:hover {
+  color: var(--black);
+}

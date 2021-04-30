@@ -1,0 +1,16 @@
+.hero_container {
+  margin-top: 10%;
+}
+
+.h1_home {
+  text-align: center;
+  line-height: 4.5rem;
+}
+
+.body_text {
+  margin: auto;
+  width: 32%;
+  text-align: center;
+  margin-top: 50px;
+  line-height: var(--line-height);
+}

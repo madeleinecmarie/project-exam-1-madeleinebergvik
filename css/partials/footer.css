@@ -1,0 +1,26 @@
+footer {
+  background-color: var(--green);
+  height: 220px;
+  color: var(--white);
+}
+
+.body_text_footer {
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.insta_icon {
+  height: 30px;
+  margin: 10px;
+}
+
+.youtube_icon {
+  height: 35px;
+  margin: 8px;
+}
+
+.icons {
+  text-align: center;
+  padding-top: 10px;
+}
