@@ -1,11 +1,12 @@
 .header__img {
   width: 100%;
   background-image: url(/img/waves.svg);
-  height: 230px;
+  height: 260px;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
 }
+
 /* 
 .wave_img {
   height: 200px;
