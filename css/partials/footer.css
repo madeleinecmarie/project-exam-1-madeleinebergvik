@@ -4,18 +4,18 @@ footer {
   color: var(--white);
 }
 
-.body_text_footer {
+.bodytext__footer {
   font-size: 1rem;
   text-align: center;
   padding-top: 60px;
 }
 
-.insta_icon {
+.insta__icon {
   height: 30px;
   margin: 10px;
 }
 
-.youtube_icon {
+.youtube__icon {
   height: 35px;
   margin: 8px;
 }

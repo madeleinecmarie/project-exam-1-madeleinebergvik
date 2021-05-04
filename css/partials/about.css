@@ -1,0 +1,15 @@
+.body__text {
+  width: 40%;
+}
+
+.about__img {
+  height: 600px;
+}
+
+.body__div {
+  display: flex;
+  justify-content: space-between;
+  width: 84%;
+  margin-top: 6%;
+  margin-bottom: 4%;
+}

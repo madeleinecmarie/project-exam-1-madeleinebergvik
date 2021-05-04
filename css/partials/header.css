@@ -1,4 +1,4 @@
-.header_img {
+.header__img {
   width: 100%;
   background-image: url(/img/waves.svg);
   height: 230px;
@@ -6,13 +6,13 @@
   background-size: cover;
   width: 100%;
 }
-
+/* 
 .wave_img {
   height: 200px;
   width: 100%;
-}
+} */
 
-.grid_container {
+.nav__container {
   display: grid;
   grid-template-areas: "logo links";
   color: var(--white);
@@ -20,13 +20,18 @@
   width: 100%;
 }
 
-.logo_div {
-  font-size: 1.3rem;
-  letter-spacing: var(--letter-spacing);
-  grid-area: logo;
+.nav__container a {
+  text-decoration: none;
   align-self: center;
   justify-self: center;
   width: 75%;
+}
+
+.logo__text {
+  font-size: 1.3rem;
+  letter-spacing: var(--letter-spacing);
+  grid-area: logo;
+  color: white;
 }
 
 nav {
@@ -34,14 +39,14 @@ nav {
   margin: auto;
 }
 
-.ul_elements {
+.ul__elements {
   grid-area: links;
   display: flex;
   justify-content: space-evenly;
   align-content: flex-end;
   width: 100%;
   font-weight: bold;
-  font-size: 1.05rem;
+  font-size: 1rem;
 }
 
 .active {

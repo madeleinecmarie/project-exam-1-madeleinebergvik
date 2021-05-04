@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
 
 * {
   margin: 0;
@@ -8,17 +8,28 @@
   letter-spacing: 1px;
 }
 
-body {
+body,
+.logo__text {
   font-family: "Libre Baskerville", serif;
 }
 
 nav,
-footer {
-  font-family: "Quicksand", sans-serif;
+footer,
+.body__text,
+#submit {
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
   font-size: 3.125rem;
+  font-weight: bold;
+}
+
+.h1__headline {
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 9%;
 }
 
 /* h2 {
@@ -29,10 +40,15 @@ h3 {
 
 } */
 
-.body_text {
-  font-size: 1.025rem;
+.body__text {
+  font-size: 1rem;
 }
 
-.new_line {
+.new__line {
   display: block;
+}
+
+.bold__text {
+  font-weight: bold;
+  font-size: 1.2rem;
 }

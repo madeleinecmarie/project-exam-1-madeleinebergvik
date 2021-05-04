@@ -1,0 +1,34 @@
+.contact__text {
+  width: 65%;
+}
+
+.main__contact {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+input[type="text"] {
+  width: 330px;
+  height: 40px;
+  border: var(--shadow);
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+#submit {
+  background-color: var(--green);
+  color: var(--white);
+  border: var(--shadow);
+  width: 180px;
+  height: 55px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.error {
+  color: #ff1100;
+  display: none;
+}

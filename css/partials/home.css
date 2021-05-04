@@ -1,13 +1,13 @@
-.hero_container {
+.hero {
   margin-top: 9%;
 }
 
-.h1_home {
+.h1__home {
   text-align: center;
   line-height: 4.5rem;
 }
 
-.body_text {
+.body__text {
   margin: auto;
   width: 32%;
   text-align: center;
