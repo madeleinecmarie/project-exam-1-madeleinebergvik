@@ -1,34 +1,51 @@
-/* .contact__text {
-  width: 65%;
+.main__contact {
+  height: 700px;
 }
 
-.main__contact {
+.contact__text {
+  width: 30%;
+  margin-top: 20px;
+}
+
+form {
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 390px;
+  margin-top: 4%;
+  text-align: center;
 }
 
 input[type="text"] {
-  width: 330px;
-  height: 40px;
-  border: var(--shadow);
+  border: 1px solid #d4e0da;
   border-radius: 10px;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  box-shadow: var(--shadow);
+  width: 400px;
+  height: 55px;
+  margin: auto;
 }
 
 #submit {
   background-color: var(--green);
   color: var(--white);
-  border: var(--shadow);
   width: 180px;
   height: 55px;
   border-radius: 10px;
   font-size: 1rem;
   font-weight: bold;
+  border: none;
+  box-shadow: var(--shadow);
+  margin-top: 20px;
+}
+
+::placeholder {
+  padding-left: 15px;
 }
 
 .error {
   color: #ff1100;
   display: none;
-} */
+}
+
+/* input[type="text"] */
