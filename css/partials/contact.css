@@ -11,12 +11,15 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 420px;
+  height: 550px;
   margin-top: 4%;
   text-align: center;
 }
 
-input[type="text"] {
+#name,
+#email,
+#subject,
+#message {
   border: 1px solid #d4e0da;
   border-radius: 10px;
   font-size: 0.9rem;
@@ -24,6 +27,12 @@ input[type="text"] {
   width: 400px;
   height: 55px;
   margin: auto;
+}
+
+#message {
+  height: 190px;
+  resize: none;
+  padding-top: 20px;
 }
 
 #submit {
@@ -46,6 +55,14 @@ input[type="text"] {
 .error {
   color: #ff1100;
   display: none;
+  margin: 15px;
+  font-size: 0.9rem;
 }
 
-/* input[type="text"] */
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}

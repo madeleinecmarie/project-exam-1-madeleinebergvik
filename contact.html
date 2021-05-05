@@ -46,18 +46,19 @@
 
         <input type="text" name="textbox" id="subject" placeholder="Subject" />
         <p class="error subjectError">Please enter 10 or more characters</p>
-
-        <input
-          type="text"
-          name="message"
-          id="message"
+        <textarea
           placeholder="Please write your message here"
-        />
-        <p class="error addressError">Please enter 25 or more characters</p>
+          id="message"
+          name="commentfield"
+          cols="30"
+          rows="14"
+        ></textarea>
+        <p class="error messageError">Please enter 25 or more characters</p>
         <div class="btn__div">
           <button id="submit">Send</button>
         </div>
       </form>
     </main>
+    <script src="js/contact.js"></script>
   </body>
 </html>
