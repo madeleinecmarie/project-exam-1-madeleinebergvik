@@ -20,7 +20,8 @@ footer,
 #name,
 #email,
 #subject,
-#message {
+#message,
+.error {
   font-family: "Montserrat", sans-serif;
 }
 
