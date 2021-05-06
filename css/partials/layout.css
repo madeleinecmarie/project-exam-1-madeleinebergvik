@@ -21,7 +21,8 @@ footer,
 #email,
 #subject,
 #message,
-.error {
+.error,
+.body__text-section1 {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -37,16 +38,18 @@ h1 {
   margin-top: 10%;
 }
 
-/* h2 {
-
+h2 {
+  font-size: 1.7rem;
 }
 
-h3 {
+/* h3 {
 
 } */
 
-.body__text {
+.body__text,
+.body__text-section1 {
   font-size: 1rem;
+  line-height: var(--line-height);
 }
 
 .new__line {

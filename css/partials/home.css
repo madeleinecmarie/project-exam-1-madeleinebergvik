@@ -1,5 +1,6 @@
 .hero {
   margin-top: 9%;
+  height: 600px;
 }
 
 .h1__home {
@@ -12,5 +13,24 @@
   width: 32%;
   text-align: center;
   margin-top: 50px;
-  line-height: var(--line-height);
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 650px;
+  margin: auto;
+}
+
+.headline__div {
+  line-height: 130px;
+}
+
+.body__text-section1 {
+  width: 85%;
+}
+
+.beach__img {
+  height: 600px;
 }

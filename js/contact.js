@@ -11,8 +11,8 @@ submitBtn.onclick = function (event) {
     console.log('It works');
 
     const name = document.querySelector('#name').value.trim();
-    const subject = document.querySelector('#email').value.trim();
-    const email = document.querySelector('#subject').value;
+    const subject = document.querySelector('#subject').value.trim();
+    const email = document.querySelector('#email').value;
     const message = document.querySelector('#message').value;
 
     if (testLen(name, 5)) {
