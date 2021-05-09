@@ -3,7 +3,6 @@ document.querySelector('.loading').innerHTML = `<img src="/img/sun.gif"/>`;
 
 const apiUrl = 'https://noroffcors.herokuapp.com/https://travelapi.mcmo.tech/wp-json/wp/v2/posts';
 
-
 const getBlogPosts = async () => {
     try {
 		const repsonse = await fetch(apiUrl);
