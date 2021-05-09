@@ -1,5 +1,6 @@
-.body__text {
+.body__text-about {
   width: 40%;
+  margin: auto;
 }
 
 .about__img {

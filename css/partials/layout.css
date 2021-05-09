@@ -22,7 +22,8 @@ footer,
 #subject,
 #message,
 .error,
-.body__text-section1 {
+.body__text-section1,
+.body__text-about {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -47,7 +48,8 @@ h2 {
 } */
 
 .body__text,
-.body__text-section1 {
+.body__text-section1,
+.body__text-about {
   font-size: 1rem;
   line-height: var(--line-height);
 }

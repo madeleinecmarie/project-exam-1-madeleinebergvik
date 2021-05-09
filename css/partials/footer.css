@@ -13,14 +13,22 @@ footer {
 .insta__icon {
   height: 30px;
   margin: 10px;
+  transition: 0.4s;
 }
 
 .youtube__icon {
   height: 35px;
   margin: 8px;
+  transition: 0.4s;
 }
 
 .icons {
   text-align: center;
   padding-top: 10px;
+}
+
+.youtube__icon:hover,
+.insta__icon:hover {
+  transform: translateY(-3px);
+  cursor: pointer;
 }
