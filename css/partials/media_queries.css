@@ -105,6 +105,12 @@
     height: 440px;
     margin-top: 6%;
   }
+
+  /* LOADER */
+
+  .loading {
+    display: none;
+  }
 }
 
 @media (max-width: 1024px) {

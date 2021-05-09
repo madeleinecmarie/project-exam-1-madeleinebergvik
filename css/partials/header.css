@@ -6,10 +6,6 @@
   background-size: cover;
 }
 
-/* header {
-  width: 100%;
-} */
-
 nav {
   display: flex;
   flex-direction: row;
@@ -19,7 +15,7 @@ nav {
 }
 
 .logo__div {
-  margin-top: 5%;
+  margin-top: 4%;
 }
 
 .logo__div a {
@@ -33,7 +29,7 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 40%;
-  margin-top: 5.5%;
+  margin-top: 4.5%;
 }
 
 .ul__elements a {
