@@ -23,7 +23,8 @@
   text-decoration: none;
 }
 
-.blog__card:hover {
+.blog__card:hover,
+.show__btn:hover {
   transform: translateY(-3px);
   cursor: pointer;
 }
@@ -35,7 +36,7 @@
 }
 
 .blog__img {
-  height: 300px;
+  height: 290px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -45,6 +46,26 @@
   font-size: 0.9rem;
   line-height: 25px;
   margin-top: 10%;
+}
+
+.showmore__btn {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 6%;
+}
+
+.show__btn {
+  background-color: var(--green);
+  border: none;
+  width: 200px;
+  height: 62px;
+  border-radius: 10px;
+  padding: 14px;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 0.95rem;
+  transition: 0.3s;
+  box-shadow: var(--shadow);
 }
 
 .loading {

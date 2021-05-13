@@ -8,15 +8,16 @@ const id = params.get('id');
 async function getId(blogId) {
     try {
         // console.log(blogId);
-        const response = await fetch('https://noroffcors.herokuapp.com/https://travelapi.mcmo.tech/wp-json/wp/v2/posts' + blogId);
+        const response = await fetch('https://noroffcors.herokuapp.com/https://travelapi.mcmo.tech/wp-json/wp/v2/posts/' + blogId);
         const jsonResults = await response.json();
-        const blogArray = jsonResults.data;
-        console.log(blogArray);
+        // const blogArray = jsonResults.data;
+        // console.log(blogArray);
 
-        document.title = blogArray.title.rendered;
+        // document.title = jsonResults.title.rendered;
+
         document.querySelector('.detail__container').innerHTML = `
-        <h1>${blogArray.title.rendered}</h1>
-        <img class="detail__img">${value.better_featured_image.media_details.sizes.medium.source_url}/>
+        <h1 class="h1__headline__js">${jsonResults.title.rendered}</h1>
+        <div class="content__text">${jsonResults.content.rendered}</div>
         `;
 
     } catch{
@@ -27,3 +28,4 @@ async function getId(blogId) {
 }
 
 getId(id);
+

@@ -3,11 +3,12 @@ document.querySelector('.loading').innerHTML = `<img src="/img/sun.gif"/>`;
 
 const apiUrl = 'https://noroffcors.herokuapp.com/https://travelapi.mcmo.tech/wp-json/wp/v2/posts';
 
-const getBlogPosts = async () => {
+const getBlogPosts = async (url) => {
     try {
-		const repsonse = await fetch(apiUrl);
+		const repsonse = await fetch(url);
 		const blogs = await repsonse.json();
         console.log(blogs);
+
 
    blogs.forEach((value) => {
        document.querySelector('.blog__container').innerHTML += `
@@ -21,14 +22,23 @@ const getBlogPosts = async () => {
        </a>
        `;
 
-        document.querySelector(`.blog${value.id}`).style.backgroundImage = `url(${value.better_featured_image.media_details.sizes.medium.source_url})`;
+        document.querySelector(`.blog${value.id}`).style.backgroundImage = `url(${value.better_featured_image.media_details.sizes.large.source_url})`;
    });
 
-	} catch {
+	} catch (error) {
+    console.log(error);
+
         } finally {
           document.querySelector('.loading').classList.add('hide');
       }
   }
 
-getBlogPosts();
+getBlogPosts(apiUrl);
 
+const showMoreBtn = document.querySelector('.showmore__btn');
+
+
+showMoreBtn.onclick = function () {
+    getBlogPosts (apiUrl + `?page=2`);
+    showMoreBtn.innerHTML = '';
+};

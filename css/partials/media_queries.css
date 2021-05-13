@@ -111,6 +111,8 @@
   .loading {
     display: none;
   }
+
+  /* HAMBURGER */
 }
 
 @media (max-width: 1024px) {

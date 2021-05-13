@@ -47,11 +47,8 @@ form {
   border: none;
   box-shadow: var(--shadow);
   margin-top: 20px;
+  cursor: pointer;
 }
-
-/* ::placeholder {
-  padding-left: 5px;
-} */
 
 .error {
   color: #ff1100;
