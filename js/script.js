@@ -6,6 +6,7 @@ const navSlide = () => {
     const nav = document.querySelector('.ul__elements');
     const navLinks = document.querySelectorAll('.ul__elements li');
 
+
     burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
 
@@ -13,7 +14,7 @@ const navSlide = () => {
             if (link.style.animation) {
                 link.style.animation = '';
             } else {
-             link.style.animation = `navLinkFade 0.1s ease forwards ${index / 4 + 1}s`;
+             link.style.animation = `navLinkFade 0.1s ease forwards ${index / 12}s`;
             }
              // console.log(index / 7);
          });
