@@ -37,8 +37,9 @@ getBlogPosts(apiUrl);
 
 const showMoreBtn = document.querySelector('.showmore__btn');
 
-
 showMoreBtn.onclick = function () {
     getBlogPosts (apiUrl + `?page=2`);
     showMoreBtn.innerHTML = '';
 };
+
+// document.querySelector('.loading') = '';

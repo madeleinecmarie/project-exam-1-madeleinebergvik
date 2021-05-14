@@ -38,3 +38,19 @@
 .beach__img {
   height: 600px;
 }
+
+/* SLIDER */
+
+.slide__container {
+  display: flex;
+  /* margin: 100px auto; */
+}
+
+.posts {
+  width: 300px;
+  height: 300px;
+}
+
+/* .slick-track {
+  height: 40px;
+} */
