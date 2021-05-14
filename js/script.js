@@ -1,23 +1,5 @@
 // HAMBURGER MENU
 
-// const hamburger = document.querySelector(".hamburger");
-// const navMenu = document.querySelector('.ul__elements');
-
-// hamburger.addEventListener("click", mobileMenu);
-
-// function mobileMenu() {
-//     hamburger.classList.toggle("active");
-//     navMenu.classList.toggle("active");
-// }
-
-// const navLink = document.querySelectorAll('.link');
-
-// navLink.forEach(n => n.addEventListener("click", closeMenu));
-
-// function closeMenu() {
-//     hamburger.classList.remove("active");
-//     navMenu.classList.remove("active");
-// };
 
 const navSlide = () => {
     const burger = document.querySelector('.burger');
@@ -31,7 +13,7 @@ const navSlide = () => {
             if (link.style.animation) {
                 link.style.animation = '';
             } else {
-             link.style.animation = `navLinkFade 0.3s ease forwards ${index / 4 + 1}s`;
+             link.style.animation = `navLinkFade 0.1s ease forwards ${index / 4 + 1}s`;
             }
              // console.log(index / 7);
          });
