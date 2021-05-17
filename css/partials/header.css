@@ -39,26 +39,7 @@ nav {
   font-size: 1rem;
 }
 
-/* .ul__elements .active {
-  color: var(--black);
-  text-decoration: none;
-} */
-
 .active:hover,
 .link:hover {
   color: var(--black);
-}
-
-/* HAMBURGER MENU */
-
-.burger div {
-  width: 28px;
-  height: 3px;
-  background-color: var(--white);
-  margin: 5px;
-  transition: all 0.3s ease;
-}
-
-.burger {
-  display: none;
 }

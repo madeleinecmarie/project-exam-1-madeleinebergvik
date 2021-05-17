@@ -1,6 +1,7 @@
 /* TABLET */
 @media (max-width: 991px) {
   /* HOME PAGE */
+
   .section1 {
     display: flex;
     flex-direction: column;
@@ -63,12 +64,13 @@
 /* MOBILE */
 @media (max-width: 767px) {
   /* HOME PAGE */
+
   .h1__home {
     font-size: 1.7rem;
   }
 
   .body__text {
-    width: 53%;
+    width: 58%;
     font-size: 0.9rem;
   }
 
@@ -111,8 +113,6 @@
   .loading {
     display: none;
   }
-
-  /* HAMBURGER */
 }
 
 @media (max-width: 1024px) {
@@ -143,67 +143,5 @@
   .header__img {
     width: 100%;
     height: 300px;
-  }
-}
-
-@media (max-width: 850px) {
-  body {
-    overflow-x: hidden;
-  }
-
-  .logo__div a {
-    font-size: 1.1rem;
-  }
-
-  .ul__elements {
-    position: absolute;
-    right: 0px;
-    width: 100%;
-    height: 90vh;
-    top: 5vh;
-    background-color: var(--green);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    transform: translateX(100%);
-    transition: transform 0.4s ease-in;
-  }
-
-  .ul__elements li {
-    opacity: 0;
-  }
-
-  .burger {
-    display: block;
-    cursor: pointer;
-    margin-top: 12px;
-  }
-
-  .nav-active {
-    transform: translateX(0%);
-  }
-
-  .toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
-  }
-
-  .toggle .line2 {
-    opacity: 0;
-  }
-
-  .toggle .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
-  }
-
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(0px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0px);
-    }
   }
 }
