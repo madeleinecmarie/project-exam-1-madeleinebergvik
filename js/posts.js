@@ -12,7 +12,7 @@ const getBlogPosts = async (url) => {
 
    blogs.forEach((value) => {
        document.querySelector('.blog__container').innerHTML += `
-       <a class="blog__link" href="details_post.html?id=${value.id}">
+       <a class="slider__link" href="details_post.html?id=${value.id}">
        <div class="blog__card">
        <div class="blog__img blog${value.id}"></div>
        <h2 class="h2__js">${value.title.rendered}</h2>
@@ -41,5 +41,3 @@ showMoreBtn.onclick = function () {
     getBlogPosts (apiUrl + `?page=2`);
     showMoreBtn.innerHTML = '';
 };
-
-// document.querySelector('.loading') = '';

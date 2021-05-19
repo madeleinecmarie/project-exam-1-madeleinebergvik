@@ -1,63 +1,66 @@
-// HAMBURGER MENU
-
-
-const navSlide = () => {
-    const burger = document.querySelector('.burger');
-    const nav = document.querySelector('.ul__elements');
-    const navLinks = document.querySelectorAll('.ul__elements li');
-
-
-    burger.addEventListener('click', () => {
-        nav.classList.toggle('nav-active');
-
-        navLinks.forEach((link, index) => {
-            if (link.style.animation) {
-                link.style.animation = '';
-            } else {
-             link.style.animation = `navLinkFade 0.1s ease forwards ${index / 12}s`;
-            }
-             // console.log(index / 7);
-         });
-
-         // Burger animation
-         burger.classList.toggle('toggle');
-    });
-
-
-}
-navSlide();
-
-
-
-
 function sliderFunction() {
-
-$('.slide__container').slick({
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 3
-  });
-
+    $('.slide__container').slick({
+        arrows: true,
+        infinite: false,
+        speed: 600,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
 }
 
-  async function getSliderContent() {
+async function getSliderContent() {
     try {
     const response = await fetch(
-        'https://noroffcors.herokuapp.com/https://travelapi.mcmo.tech/wp-json/wp/v2/posts');
+            'https://noroffcors.herokuapp.com/https://travelapi.mcmo.tech/wp-json/wp/v2/posts');
         const jsonResults = await response.json();
-        const SliderContent = jsonResults;
-        SliderContent.forEach(function (value) {
+        const sliderArray = jsonResults;
         
-            if (value.better_featured_image.media_details.sizes.large.source_url) {
-            document.querySelector('#sliders').innerHTML += `
-            <div class="posts">
-                <img src="${value.better_featured_image.media_details.sizes.thumbnail.source_url}">
+        sliderArray.forEach(function (element) {
+        
+            if (element.better_featured_image.media_details.sizes.thumbnail.source_url) {
+            document.querySelector('.slide__container').innerHTML += `
+            <a href="details_post.html?id=${element.id}">
+            <div class="slider__cont">
+                <div class="slider__img slide${element.id}"></div>
+                <h4 class="slider__headline">${element.title.rendered}</h4>
+                <div class="slider__info">
+                    <p>${element.excerpt.rendered}</p>
+                </div>
             </div>
+            </a>
             `;
+
+            document.querySelector(`.slide${element.id}`).style.backgroundImage = `url(${element.better_featured_image.media_details.sizes.large.source_url})`;
             } else {
-            document.querySelector('#sliders').innerHTML += `
-                <div class="h2__container">   
-                    <h2>${value.title.rendered}</h2>
+            document.querySelector('#slider').innerHTML += `
+                <div class="h2undertitle">   
+                    <h2>${element.title.rendered}</h2>
                 </div>
             `;
             }
@@ -66,7 +69,6 @@ $('.slide__container').slick({
     } catch (error) {   
     } finally {
     }
-    }
+}
     
-    getSliderContent();
-  
+getSliderContent();

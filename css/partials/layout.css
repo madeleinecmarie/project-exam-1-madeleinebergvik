@@ -25,7 +25,8 @@ footer,
 .body__text-section1,
 .body__text-about,
 .content__text,
-.show__btn {
+.show__btn,
+.slider__info p {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -43,6 +44,14 @@ h1 {
 
 h2 {
   font-size: 1.7rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.3rem;
 }
 
 /* h3 {

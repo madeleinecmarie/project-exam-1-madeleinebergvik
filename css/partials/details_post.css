@@ -17,21 +17,13 @@
 .blocks-gallery-grid {
   display: flex;
   flex-direction: row;
+  margin-top: 3%;
 }
 
-.wp-image-230,
-.wp-image-186,
-.wp-image-187,
-.wp-image-180,
-.wp-image-178,
-.wp-image-229,
-.wp-image-277,
-.wp-image-284,
-.wp-image-296 {
-  height: 470px;
+.wp-image {
+  height: 460px;
   width: auto;
-  margin-left: 20px;
-  /* margin-top: %; */
+  margin-left: 30px;
 }
 
 .text__2 {
