@@ -41,11 +41,6 @@
 
 /* SLIDER */
 
-.slides {
-  width: 78%;
-  margin: auto;
-}
-
 .slider__cont:hover {
   transform: translateY(-3px);
   cursor: pointer;
@@ -53,13 +48,13 @@
 
 .slider__cont {
   background-color: var(--card-bgd);
-  height: 490px;
-  margin: 15px;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   box-shadow: 0px 1px 4px 2px rgb(190, 207, 201, 0.3);
   border-radius: 10px;
   transition: 0.3s;
+  margin: 15px;
+  height: 460px;
 }
 
 /* .slick-prev:before,
@@ -107,6 +102,11 @@
 
 /* .slick-next,
 .slick-prev {
+} */
+
+/* .slick-next,
+.slick-arrow {
+  color: black;
 } */
 
 .h3__headline {
