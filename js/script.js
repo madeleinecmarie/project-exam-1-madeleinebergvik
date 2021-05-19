@@ -26,7 +26,8 @@ function sliderFunction() {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          arrows: false
         }
       }
     ]
@@ -45,7 +46,6 @@ async function getSliderContent() {
         
             if (element.better_featured_image.media_details.sizes.thumbnail.source_url) {
             document.querySelector('.slide__container').innerHTML += `
-          
             <div class="slider__cont">
             <a href="details_post.html?id=${element.id}">
                 <div class="slider__img slide${element.id}"></div>
@@ -72,5 +72,4 @@ async function getSliderContent() {
     } finally {
     }
 }
-    
 getSliderContent();
