@@ -77,10 +77,6 @@
 @media (max-width: 767px) {
   /* HAMBURGER MENU */
 
-  nav {
-    z-index: 1;
-  }
-
   .ul__elements {
     height: 100vh;
     position: fixed;
