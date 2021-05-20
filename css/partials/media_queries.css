@@ -66,20 +66,20 @@
   /* HAMBURGER MENU */
 
   .ul__elements {
-    height: 98vh;
+    height: 100vh;
     position: fixed;
-    top: -10;
+    top: 0;
     width: 100%;
     right: 0;
     left: 0;
-    z-index: 5;
+    z-index: 10;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
     background-color: var(--green);
-    /* transition: top 2s ease; */
-    /* display: none; */
+    display: none;
+    margin: 0;
   }
 
   .open {
@@ -93,7 +93,7 @@
   .close {
     display: block;
     position: absolute;
-    top: -20px;
+    top: -8px;
     right: 10px;
     color: var(--white);
   }
