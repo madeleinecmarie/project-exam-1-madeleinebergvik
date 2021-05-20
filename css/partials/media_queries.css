@@ -78,7 +78,7 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: var(--green);
-    transition: top 2s ease;
+    /* transition: top 2s ease; */
     display: none;
   }
 
