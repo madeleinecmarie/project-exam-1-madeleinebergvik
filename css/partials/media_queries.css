@@ -79,13 +79,13 @@
     justify-content: space-evenly;
     background-color: var(--green);
     /* transition: top 2s ease; */
-    display: none;
+    /* display: none; */
   }
 
   .open {
     display: block;
     position: absolute;
-    top: -2px;
+    top: -6px;
     right: 10px;
     color: var(--white);
   }
