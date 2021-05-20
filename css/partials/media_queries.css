@@ -63,6 +63,45 @@
 
 /* MOBILE */
 @media (max-width: 767px) {
+  /* HAMBURGER MENU */
+
+  .ul__elements {
+    height: 98vh;
+    position: fixed;
+    top: -10;
+    width: 100%;
+    right: 0;
+    left: 0;
+    z-index: 5;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--green);
+    transition: top 2s ease;
+    display: none;
+  }
+
+  .open {
+    display: block;
+    position: absolute;
+    top: -2px;
+    right: 10px;
+    color: var(--white);
+  }
+
+  .close {
+    display: block;
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    color: var(--white);
+  }
+
+  .logo__div {
+    margin-top: 6%;
+  }
+
   /* HOME PAGE */
 
   .h1__home {
