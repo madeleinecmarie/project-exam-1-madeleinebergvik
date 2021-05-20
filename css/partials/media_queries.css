@@ -1,5 +1,16 @@
 /* TABLET */
 @media (max-width: 991px) {
+  /* HAMBURGER MENU */
+
+  .open,
+  .close {
+    display: none;
+  }
+
+  .ul__elements {
+    width: 55%;
+  }
+
   /* HOME PAGE */
 
   .section1 {
@@ -49,6 +60,7 @@
   }
 }
 
+/* DESKTOP */
 @media (max-width: 1200px) {
   /* HOME PAGE */
   .section1 {
@@ -66,9 +78,9 @@
   /* HAMBURGER MENU */
 
   .ul__elements {
-    height: 94vh;
+    height: 100vh;
     position: fixed;
-    top: 0;
+    top: 10;
     width: 100%;
     right: 0;
     left: 0;

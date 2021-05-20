@@ -14,6 +14,11 @@ nav {
   margin: auto;
 }
 
+.open,
+.close {
+  display: none;
+}
+
 .logo__div {
   margin-top: 4%;
 }
