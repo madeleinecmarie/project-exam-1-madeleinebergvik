@@ -78,7 +78,11 @@
   /* LAYOUT */
 
   .h1__headline {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+  }
+
+  .h1__headline__js {
+    font-size: 2rem;
   }
 
   footer {
@@ -225,6 +229,8 @@
 
   .text__2 {
     margin: auto;
+    font-size: 0.9rem;
+    width: 95%;
   }
 
   .blocks-gallery-grid {
@@ -232,6 +238,11 @@
     flex-direction: column;
     margin: auto;
     margin-top: 10%;
+  }
+
+  .wp-image {
+    height: 350px;
+    margin: 10px;
   }
 
   /* CONTACT */
