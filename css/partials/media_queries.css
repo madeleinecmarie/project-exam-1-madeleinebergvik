@@ -75,6 +75,33 @@
 
 /* MOBILE */
 @media (max-width: 767px) {
+  /* LAYOUT */
+
+  .h1__headline {
+    font-size: 1.3rem;
+  }
+
+  footer {
+    margin-top: 12%;
+  }
+
+  .h3__headline {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .bold__text {
+    font-size: 1rem;
+  }
+
+  .body__text-about,
+  .body__text {
+    font-size: 0.9rem;
+  }
+
   /* HAMBURGER MENU */
 
   .ul__elements {
@@ -100,6 +127,7 @@
     top: -8px;
     right: 10px;
     color: var(--white);
+    font-size: 1.8rem;
   }
 
   .close {
@@ -108,13 +136,22 @@
     top: -8px;
     right: 10px;
     color: var(--white);
+    font-size: 1.8rem;
   }
 
   .logo__div {
     margin-top: 6%;
   }
 
+  .logo__div a {
+    font-size: 1.2rem;
+  }
+
   /* HOME PAGE */
+
+  .hero {
+    height: 500px;
+  }
 
   .h1__home {
     font-size: 1.7rem;
@@ -133,33 +170,25 @@
   .section1 {
     display: flex;
     flex-direction: column;
-    height: 1400px;
-  }
-
-  h2 {
-    text-align: center;
+    height: 1440px;
   }
 
   .beach__img {
-    margin-left: 6%;
+    margin: auto;
     margin-top: 40px;
-    height: 310px;
-  }
-
-  .h3__headline {
-    font-size: 1.4rem;
+    height: 350px;
   }
 
   .responsive {
     margin-top: 6%;
   }
 
-  .slick-dots {
-    height: 8%;
+  .slider__cont {
+    margin: auto;
   }
 
-  footer {
-    margin-top: 12%;
+  .slick-dots {
+    height: 8%;
   }
 
   /* ABOUT  */
@@ -181,6 +210,25 @@
     margin-top: 6%;
   }
 
+  /* SPECIFIC POSTS */
+
+  .text__2 {
+    margin: auto;
+  }
+
+  .blocks-gallery-grid {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10%;
+  }
+
+  /* CONTACT */
+
+  .main__contact {
+    height: auto;
+  }
+
   /* LOADER */
 
   .loading {
@@ -188,14 +236,12 @@
   }
 }
 
-@media (max-width: 1024px) {
-  /* ABOUT  */
-
+/* @media (max-width: 1024px) {
+/* ABOUT
   .body__div {
     display: flex;
     flex-direction: column;
     width: 90%;
-    /* margin: auto; */
     margin-top: 8%;
     margin-bottom: 4%;
   }
@@ -209,7 +255,7 @@
     height: 440px;
     margin: 40px;
   }
-}
+} */
 
 @media (max-width: 1920px) {
   /* HEADER */

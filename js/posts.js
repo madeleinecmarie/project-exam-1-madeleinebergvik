@@ -35,6 +35,8 @@ const getBlogPosts = async (url) => {
 
 getBlogPosts(apiUrl);
 
+// SHOW MORE BTN
+
 const showMoreBtn = document.querySelector('.showmore__btn');
 
 showMoreBtn.onclick = function () {

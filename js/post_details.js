@@ -1,4 +1,4 @@
-// Loading gif
+// LOADING GIF
 document.querySelector('.loading').innerHTML = `<img src="/img/sun.gif"/>`;
 
 const queryString = document.location.search;
@@ -7,7 +7,6 @@ const id = params.get('id');
 
 async function getId(blogId) {
     try {
-        // console.log(blogId);
         const response = await fetch('https://noroffcors.herokuapp.com/https://travelapi.mcmo.tech/wp-json/wp/v2/posts/' + blogId);
         const jsonResults = await response.json();
       
@@ -17,6 +16,20 @@ async function getId(blogId) {
         <div class="content__text">${jsonResults.content.rendered}</div>
         `;
 
+        // IMAGE MODAL
+
+        const imgModal = document.querySelectorAll('.wp-image');
+        const imgOverlay = document.querySelector('.overlay__div');
+        
+        imgModal.forEach(element => {
+        element.onclick = function () {
+        imgOverlay.style.display = 'block';
+        imgOverlay.innerHTML = `<img src="${element.src}" />`;
+    };
+});
+        imgOverlay.onclick = function () {
+        imgOverlay.style.display = 'none';
+    };
     } catch{
 
     } finally {
@@ -25,4 +38,5 @@ async function getId(blogId) {
 }
 
 getId(id);
+
 
