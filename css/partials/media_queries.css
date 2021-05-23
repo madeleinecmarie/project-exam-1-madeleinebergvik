@@ -245,6 +245,10 @@
     margin: 10px;
   }
 
+  .overlay__div img {
+    height: 400px;
+  }
+
   /* CONTACT */
 
   .main__contact {
