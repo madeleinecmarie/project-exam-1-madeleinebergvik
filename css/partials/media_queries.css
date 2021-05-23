@@ -104,6 +104,11 @@
     font-size: 0.9rem;
   }
 
+  #submit,
+  .show__btn {
+    font-size: 0.9rem;
+  }
+
   /* HAMBURGER MENU */
 
   .ul__elements {
@@ -235,10 +240,6 @@
     height: auto;
   }
 
-  #submit {
-    font-size: 0.9rem;
-  }
-
   /* LOADER */
 
   .loading {
@@ -247,9 +248,9 @@
 
   /* BLOG POSTS */
 
-  /* .h2__js {
-    font-size: 1.3rem;
-  } */
+  .h2__js {
+    font-size: 1.25rem;
+  }
 }
 
 /* @media (max-width: 1024px) {
