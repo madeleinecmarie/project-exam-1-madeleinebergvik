@@ -247,6 +247,7 @@
 
   .overlay__div img {
     height: 400px;
+    margin-top: 50%;
   }
 
   /* CONTACT */
