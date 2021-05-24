@@ -1,5 +1,15 @@
 /* TABLET */
 @media (max-width: 991px) {
+  /* LAYOUT */
+
+  .h1__headline__js {
+    font-size: 2rem;
+  }
+
+  footer {
+    margin-top: 8%;
+  }
+
   /* HAMBURGER MENU */
 
   .open,
@@ -13,6 +23,10 @@
 
   /* HOME PAGE */
 
+  .h1__home {
+    font-size: 2.3rem;
+  }
+
   .section1 {
     display: flex;
     flex-direction: column;
@@ -20,6 +34,7 @@
 
   .beach__img {
     margin-top: 50px;
+    height: 500px;
   }
 
   .body__text {
@@ -42,21 +57,40 @@
     margin-top: 10%;
   }
 
+  .main__contact {
+    height: auto;
+  }
+
   /* ABOUT  */
 
   .body__div {
+    display: flex;
+    flex-direction: column;
     width: 95%;
     margin: auto;
     margin-top: 8%;
-    margin-bottom: 4%;
   }
 
   .body__text-about {
-    width: 60%;
+    width: 90%;
   }
 
   .about__img {
     height: 520px;
+    margin: 40px;
+    margin-bottom: 0;
+  }
+
+  /* SPECIFIC BLOG POST */
+
+  .wp-image {
+    height: 360px;
+    margin: 10px;
+  }
+
+  .overlay__div img {
+    height: 520px;
+    margin-top: 30%;
   }
 }
 
@@ -78,7 +112,7 @@
   /* LAYOUT */
 
   .h1__headline {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .h1__headline__js {
@@ -151,7 +185,7 @@
   }
 
   .logo__div {
-    margin-top: 6%;
+    margin-top: 4%;
   }
 
   .logo__div a {
@@ -169,7 +203,7 @@
   }
 
   .body__text {
-    width: 90%;
+    width: 80%;
     font-size: 0.9rem;
   }
 
@@ -181,7 +215,6 @@
   .section1 {
     display: flex;
     flex-direction: column;
-    height: 1440px;
   }
 
   .beach__img {
@@ -203,7 +236,7 @@
   }
 
   .slick-dots {
-    height: 8%;
+    height: 6%;
   }
 
   /* ABOUT  */
@@ -221,7 +254,8 @@
   }
 
   .about__img {
-    height: 440px;
+    height: 400px;
+    margin: 10px;
     margin-top: 6%;
   }
 
@@ -295,5 +329,30 @@
   .header__img {
     width: 100%;
     height: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+  .beach__img {
+    height: 250px;
+  }
+
+  .about__img {
+    height: 330px;
+  }
+
+  footer {
+    margin-top: 20%;
+  }
+
+  #name,
+  #email,
+  #subject,
+  #message {
+    width: 230px;
+  }
+
+  .logo__div {
+    margin-top: 7%;
   }
 }
