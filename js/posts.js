@@ -9,26 +9,29 @@ const getBlogPosts = async (url) => {
 		const blogs = await repsonse.json();
         console.log(blogs);
 
-
-   blogs.forEach((value) => {
-       document.querySelector('.blog__container').innerHTML += `
-       <a class="slider__link" href="details_post.html?id=${value.id}">
-       <div class="blog__card">
-       <div class="blog__img blog${value.id}"></div>
-       <h2 class="h2__js">${value.title.rendered}</h2>
-       <div class="bodytext__js">
-       <p>${value.excerpt.rendered}</p>
-       </div>
-       </a>
-       `;
+        blogs.forEach((value) => {
+        document.querySelector('.blog__container').innerHTML += `
+        <a class="slider__link" href="details_post.html?id=${value.id}">
+        <div class="blog__card">
+        <div class="blog__img blog${value.id}"></div>
+        <h2 class="h2__js">${value.title.rendered}</h2>
+        <div class="bodytext__js">
+        <p>${value.excerpt.rendered}</p>
+        </div>
+        </a>
+        `;
 
         document.querySelector(`.blog${value.id}`).style.backgroundImage = `url(${value.better_featured_image.media_details.sizes.large.source_url})`;
    });
 
 	} catch (error) {
     console.log(error);
+    document.querySelector('.alert').innerHTML += showAlert(
+        'An error has occured',
+        'danger'
+    );
 
-        } finally {
+    } finally {
           document.querySelector('.loading').classList.add('hide');
       }
   }

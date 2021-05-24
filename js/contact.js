@@ -1,4 +1,4 @@
-const submitBtn = document.querySelector('#submit');
+const sendBtn = document.querySelector('#submit');
 
 // Error messages 
 const nameError = document.querySelector('.nameError');
@@ -6,7 +6,7 @@ const emailError = document.querySelector('.emailError');
 const subjectError = document.querySelector('.subjectError');
 const messageError = document.querySelector('.messageError');
 
-submitBtn.onclick = function (event) {
+sendBtn.onclick = function (event) {
     event.preventDefault();
     console.log('It works');
 

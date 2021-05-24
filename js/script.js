@@ -50,27 +50,33 @@ async function getSliderContent() {
             document.querySelector('.slide__container').innerHTML += `
             <div class="slider__cont">
             <a href="details_post.html?id=${element.id}">
-                <div class="slider__img slide${element.id}"></div>
-                <h4 class="slider__headline">${element.title.rendered}</h4>
-                <div class="slider__info">
-                    <p>${element.excerpt.rendered}</p>
-                </div>
-                </a>
+            <div class="slider__img slide${element.id}"></div>
+            <h4 class="slider__headline">${element.title.rendered}</h4>
+            <div class="slider__info">
+            <p>${element.excerpt.rendered}</p>
             </div>
-    
+            </a>
+            </div>
             `;
 
             document.querySelector(`.slide${element.id}`).style.backgroundImage = `url(${element.better_featured_image.media_details.sizes.large.source_url})`;
             } else {
             document.querySelector('#slider').innerHTML += `
-                <div class="h4__headline">   
-                    <h4>${element.title.rendered}</h4>
-                </div>
+            <div class="h4__headline">   
+            <h4>${element.title.rendered}</h4>
+            </div>
             `;
             }
         });
         sliderFunction();
-    } catch (error) {   
+        
+      } catch (error) {
+        console.log(error);
+        
+        document.querySelector('.alert').innerHTML += showAlert(
+            'An error has occured',
+            'danger'
+        ); 
     } finally {
     }
 }

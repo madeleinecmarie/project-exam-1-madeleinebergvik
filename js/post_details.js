@@ -38,7 +38,12 @@ async function getId(blogId) {
     'content',
     `This blogpage is about HappyTravels journey: ${title.rendered}`);
 
-    } catch{
+    } catch (error) {
+    console.log(error);
+    document.querySelector('.alert').innerHTML += showAlert(
+        'An error has occured',
+        'danger'
+    );
 
     } finally {
     document.querySelector('.loading').classList.add('hide');
