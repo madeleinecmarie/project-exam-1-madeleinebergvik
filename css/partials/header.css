@@ -44,8 +44,11 @@ nav {
   font-size: 1rem;
 }
 
-.active:hover,
 .link:hover {
+  color: var(--black);
+}
+
+#active {
   color: var(--black);
 }
 
