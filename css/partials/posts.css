@@ -10,7 +10,8 @@
   background-color: var(--card-bgd);
   max-width: 320px;
   height: 490px;
-  margin: 20px auto;
+  margin: auto;
+  margin-top: 40px;
   padding: 30px;
   text-align: center;
   transition: 0.3s;
