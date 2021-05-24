@@ -36,7 +36,7 @@ async function getId(blogId) {
     .querySelector('meta[name="description"]')
     .setAttribute(
     'content',
-    `This blogpage is about HappyTravels journey: ${title}`);
+    `This blogpage is about HappyTravels journey: ${title.rendered}`);
 
     } catch{
 
