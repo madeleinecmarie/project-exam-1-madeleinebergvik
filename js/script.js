@@ -19,9 +19,9 @@ function sliderFunction() {
       {
         breakpoint: 700,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          arrows: false
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
         }
       },
       {

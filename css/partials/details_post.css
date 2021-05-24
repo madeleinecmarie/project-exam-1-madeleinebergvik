@@ -3,7 +3,6 @@
   font-weight: var(--bold);
   text-align: center;
   height: 70px;
-  margin-top: -20px;
 }
 
 .content__text {
@@ -62,8 +61,8 @@
   margin: auto;
   display: flex;
   align-self: center;
-  margin-top: 10%;
-  height: 600px;
+  margin-top: 6%;
+  height: 700px;
 }
 
 .wp-image:hover {

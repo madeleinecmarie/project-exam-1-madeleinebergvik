@@ -50,7 +50,7 @@
   border-radius: 10px;
   transition: 0.3s;
   margin: 15px;
-  height: 460px;
+  height: 470px;
 }
 
 .slider__info p {
@@ -79,6 +79,6 @@
 
 .h3__headline {
   text-align: center;
-  margin-bottom: 2%;
+  height: 70px;
   margin-top: 10%;
 }

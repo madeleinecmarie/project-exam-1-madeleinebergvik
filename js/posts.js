@@ -1,4 +1,4 @@
-// Loading gif
+// LOADING GIF
 document.querySelector('.loading').innerHTML = `<img src="/img/sun.gif"/>`;
 
 const apiUrl = 'https://noroffcors.herokuapp.com/https://travelapi.mcmo.tech/wp-json/wp/v2/posts';
@@ -25,8 +25,8 @@ const getBlogPosts = async (url) => {
    });
 
 	} catch (error) {
-    console.log(error);
-    document.querySelector('.alert').innerHTML += showAlert(
+      console.log(error);
+      document.querySelector('.alert').innerHTML += showAlert(
         'An error has occured',
         'danger'
     );
@@ -34,7 +34,7 @@ const getBlogPosts = async (url) => {
     } finally {
           document.querySelector('.loading').classList.add('hide');
       }
-  }
+}
 
 getBlogPosts(apiUrl);
 

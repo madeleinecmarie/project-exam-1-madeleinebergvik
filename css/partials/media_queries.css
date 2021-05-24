@@ -158,7 +158,6 @@
     left: 0;
     z-index: 1;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     justify-content: space-evenly;
     background-color: var(--green);
@@ -225,10 +224,6 @@
 
   .responsive {
     margin-top: 6%;
-  }
-
-  .slider__cont {
-    margin: auto;
   }
 
   .slider__headline {

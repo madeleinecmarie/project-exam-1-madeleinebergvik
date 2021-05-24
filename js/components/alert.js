@@ -1,6 +1,6 @@
 function showAlert(
-	message = 'This is the default message',
-	classType = 'information'
+	message = 'This is a default message',
+	classType = 'Info'
 ) {
 	return `<div class="${classType}">${message}</div>`;
 }
