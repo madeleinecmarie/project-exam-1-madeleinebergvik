@@ -51,16 +51,16 @@ form {
 }
 
 .error {
-  color: #ff1100;
+  color: red;
   display: none;
   margin: 15px;
   font-size: 0.9rem;
   margin-top: 5px;
 }
 
-.hide {
+/* .hide {
   display: none;
-}
+} */
 
 .show {
   display: block;

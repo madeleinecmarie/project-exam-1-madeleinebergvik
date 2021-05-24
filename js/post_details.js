@@ -31,13 +31,6 @@ async function getId(blogId) {
         imgOverlay.style.display = 'none';
     };
 
-    // META TAG
-    document
-    .querySelector('meta[name="description"]')
-    .setAttribute(
-    'content',
-    `This blogpage is about HappyTravels journey: ${title.rendered}`);
-
     } catch (error) {
     console.log(error);
     document.querySelector('.alert').innerHTML += showAlert(
@@ -51,5 +44,13 @@ async function getId(blogId) {
 }
 
 getId(id);
+
+
+    // META TAG
+    // document
+    // .querySelector('meta[name="description"]')
+    // .setAttribute(
+    // 'content',
+    // `This blogpage is about HappyTravels journey: ${title.rendered}`);
 
 
