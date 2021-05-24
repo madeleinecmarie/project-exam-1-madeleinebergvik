@@ -303,8 +303,7 @@
   }
 }
 
-/* @media (max-width: 1024px) {
-/* ABOUT
+@media (max-width: 1024px) {
   .body__div {
     display: flex;
     flex-direction: column;
@@ -322,43 +321,20 @@
     height: 440px;
     margin: 40px;
   }
-} */
+
+  /* footer {
+    margin-top: 6%;
+  } */
+
+  .beach__img {
+    height: 440px;
+  }
+}
 
 @media (max-width: 1920px) {
   /* HEADER */
   .header__img {
     width: 100%;
     height: 300px;
-  }
-}
-
-@media (max-width: 300px) {
-  .beach__img {
-    height: 250px;
-  }
-
-  .about__img {
-    height: 330px;
-  }
-
-  footer {
-    margin-top: 20%;
-  }
-
-  #name,
-  #email,
-  #subject,
-  #message {
-    width: 230px;
-  }
-
-  .logo__div {
-    margin-top: 7%;
-  }
-}
-
-@media (max-width: 2560px) {
-  .header__img {
-    max-height: 380px;
   }
 }
