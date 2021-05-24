@@ -357,8 +357,8 @@
   }
 }
 
-/* @media (max-width: 1340px) {
-  .blog__card {
-    
+@media (max-width: 2560px) {
+  .header__img {
+    max-height: 380px;
   }
-} */
+}
