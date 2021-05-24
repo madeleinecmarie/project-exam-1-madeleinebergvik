@@ -8,10 +8,9 @@
 
 .blog__card {
   background-color: var(--card-bgd);
-  max-width: 320px;
+  width: 320px;
   height: 490px;
-  margin: auto;
-  margin-top: 40px;
+  margin: 20px auto;
   padding: 30px;
   text-align: center;
   transition: 0.3s;
