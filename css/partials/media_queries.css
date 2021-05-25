@@ -353,10 +353,8 @@
 
   .body__div {
     display: flex;
-    justify-content: space-between;
-    width: 65%;
-    /* margin-top: 6%;
-    margin-bottom: 4%; */
+    justify-content: space-evenly;
+    width: 80%;
   }
 }
 
