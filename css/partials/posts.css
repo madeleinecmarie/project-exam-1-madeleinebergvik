@@ -3,7 +3,6 @@
   display: flex;
   flex-wrap: wrap;
   width: 87%;
-  margin-top: 6%;
 }
 
 .blog__card {
@@ -13,7 +12,7 @@
   margin: 25px auto;
   padding: 30px;
   text-align: center;
-  transition: 0.3s;
+  transition: var(--transition);
   box-shadow: 0px 1px 4px 2px rgb(190, 207, 201, 0.3);
   border-radius: 10px;
 }
@@ -25,7 +24,7 @@
 
 .blog__card:hover,
 .show__btn:hover {
-  transform: translateY(-3px);
+  transform: var(--hover-up);
   cursor: pointer;
 }
 
@@ -51,7 +50,6 @@
 .showmore__btn {
   text-align: center;
   margin-top: 2%;
-  margin-bottom: 6%;
 }
 
 .show__btn {
@@ -66,6 +64,10 @@
   font-size: 0.95rem;
   transition: 0.3s;
   box-shadow: var(--shadow);
+}
+
+.height__div {
+  height: var(--height);
 }
 
 .loading {

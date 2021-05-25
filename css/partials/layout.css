@@ -15,7 +15,7 @@ body,
 
 main,
 header {
-  background-color: #f8f8f8;
+  background-color: var(--bgd);
 }
 
 nav,
@@ -45,13 +45,21 @@ h1 {
   font-size: 2.2rem;
   font-weight: var(--bold);
   text-align: center;
-  margin-top: 6%;
+  height: 140px;
+}
+
+.h1__headline-contact {
+  font-size: 2.2rem;
+  font-weight: var(--bold);
+  text-align: center;
+  height: 20px;
 }
 
 .h1__headline__blog {
   font-size: 2.2rem;
   font-weight: bold;
   text-align: center;
+  height: 140px;
 }
 
 h2 {
