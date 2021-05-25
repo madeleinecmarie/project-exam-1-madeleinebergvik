@@ -9,9 +9,9 @@ closing.addEventListener('click', close);
 
 function show() {
   navMenu.style.display = 'flex';
-  navMenu.style.top = '-4%';
+  navMenu.style.top = '0';
 }
 
 function close() {
-  navMenu.style.top = '-110%';
+  navMenu.style.top = '-120%';
 }
