@@ -1,102 +1,5 @@
-/* TABLET */
-@media (max-width: 991px) {
-  /* LAYOUT */
-
-  .h1__headline__js {
-    font-size: 2rem;
-  }
-
-  footer {
-    margin-top: 8%;
-  }
-
-  /* HAMBURGER MENU */
-
-  .open,
-  .close {
-    display: none;
-  }
-
-  .ul__elements {
-    width: 55%;
-  }
-
-  /* HOME PAGE */
-
-  .h1__home {
-    font-size: 2.3rem;
-  }
-
-  .section1 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .beach__img {
-    margin-top: 50px;
-    height: 500px;
-  }
-
-  .body__text {
-    width: 53%;
-  }
-
-  .h1__headline {
-    font-size: 1.5rem;
-  }
-
-  /* CONTACT */
-  #name,
-  #email,
-  #subject,
-  #message {
-    width: 300px;
-  }
-
-  form {
-    margin-top: 10%;
-  }
-
-  .main__contact {
-    height: auto;
-  }
-
-  /* ABOUT  */
-
-  .body__div {
-    display: flex;
-    flex-direction: column;
-    width: 95%;
-    margin: auto;
-    margin-top: 8%;
-  }
-
-  .body__text-about {
-    width: 90%;
-  }
-
-  .about__img {
-    height: 520px;
-    margin: 40px;
-    margin-bottom: 0;
-  }
-
-  /* SPECIFIC BLOG POST */
-
-  .wp-image {
-    height: 360px;
-    margin: 10px;
-  }
-
-  .overlay__div img {
-    height: 520px;
-    margin-top: 30%;
-  }
-}
-
-/* DESKTOP */
 @media (max-width: 1200px) {
-  /* HOME PAGE */
+  /* DESKTOP */
   .section1 {
     display: flex;
     flex-direction: column;
@@ -305,6 +208,102 @@
 
   .h2__js {
     font-size: 1.25rem;
+  }
+}
+
+/* TABLET */
+@media (max-width: 991px) {
+  /* LAYOUT */
+
+  .h1__headline__js {
+    font-size: 2rem;
+  }
+
+  footer {
+    margin-top: 8%;
+  }
+
+  /* HAMBURGER MENU */
+
+  .open,
+  .close {
+    display: none;
+  }
+
+  .ul__elements {
+    width: 55%;
+  }
+
+  /* HOME PAGE */
+
+  .h1__home {
+    font-size: 2.3rem;
+  }
+
+  .section1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .beach__img {
+    margin-top: 50px;
+    height: 500px;
+  }
+
+  .body__text {
+    width: 53%;
+  }
+
+  .h1__headline {
+    font-size: 1.5rem;
+  }
+
+  /* CONTACT */
+  #name,
+  #email,
+  #subject,
+  #message {
+    width: 300px;
+  }
+
+  form {
+    margin-top: 10%;
+  }
+
+  .main__contact {
+    height: auto;
+  }
+
+  /* ABOUT  */
+
+  .body__div {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    margin-top: 8%;
+  }
+
+  .body__text-about {
+    width: 90%;
+  }
+
+  .about__img {
+    height: 520px;
+    margin: 40px;
+    margin-bottom: 0;
+  }
+
+  /* SPECIFIC BLOG POST */
+
+  .wp-image {
+    height: 360px;
+    margin: 10px;
+  }
+
+  .overlay__div img {
+    height: 520px;
+    margin-top: 30%;
   }
 }
 
