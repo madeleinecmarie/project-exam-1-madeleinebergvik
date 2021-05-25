@@ -363,4 +363,10 @@
   .header__img {
     height: 410px;
   }
+
+  .body__div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+  }
 }
