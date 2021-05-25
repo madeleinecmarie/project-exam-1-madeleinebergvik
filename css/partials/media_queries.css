@@ -335,9 +335,9 @@
   }
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 2200px) {
   /* HEADER */
   .header__img {
-    height: 450px;
+    height: 500px;
   }
 }
