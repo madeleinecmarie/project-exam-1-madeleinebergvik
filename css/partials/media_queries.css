@@ -342,6 +342,10 @@
   .body__text-section1 {
     width: 50%;
   }
+
+  .body__text-section1 {
+    width: 85%;
+  }
 }
 
 @media (min-width: 2300px) {
