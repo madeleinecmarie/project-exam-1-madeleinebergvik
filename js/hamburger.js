@@ -9,7 +9,7 @@ closing.addEventListener('click', close);
 
 function show() {
   navMenu.style.display = 'flex';
-  navMenu.style.top = '0';
+  navMenu.style.top = '-4%';
 }
 
 function close() {

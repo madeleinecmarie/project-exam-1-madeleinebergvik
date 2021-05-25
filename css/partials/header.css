@@ -18,11 +18,6 @@ header {
   height: 330px;
 }
 
-.open,
-.close {
-  display: none;
-}
-
 .logo__div {
   margin-top: 2%;
 }
@@ -58,4 +53,5 @@ header {
   font-size: 2rem;
   margin: 18px;
   cursor: pointer;
+  display: none;
 }
