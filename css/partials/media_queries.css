@@ -348,7 +348,15 @@
   }
 
   .body__text-about {
-    width: 70%;
+    width: 50%;
+  }
+
+  .body__div {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    /* margin-top: 6%;
+    margin-bottom: 4%; */
   }
 }
 
