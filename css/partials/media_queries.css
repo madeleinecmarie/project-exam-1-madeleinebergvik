@@ -333,6 +333,11 @@
   .header__img {
     height: 360px;
   }
+
+  .hero {
+    margin-top: 6%;
+    height: 700px;
+  }
 }
 
 @media (min-width: 2300px) {
