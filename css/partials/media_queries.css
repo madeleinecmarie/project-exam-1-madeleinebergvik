@@ -6,10 +6,6 @@
     font-size: 2rem;
   }
 
-  footer {
-    margin-top: 8%;
-  }
-
   /* HAMBURGER MENU */
 
   .open,
@@ -117,10 +113,6 @@
 
   .h1__headline__js {
     font-size: 1.8rem;
-  }
-
-  footer {
-    margin-top: 12%;
   }
 
   .h3__headline {

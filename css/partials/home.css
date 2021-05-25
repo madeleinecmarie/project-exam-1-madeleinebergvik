@@ -1,11 +1,16 @@
 .hero {
-  margin-top: 10%;
+  /* margin-top: 10%; */
   height: 600px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* justify-items: center; */
 }
 
 .h1__home {
   text-align: center;
   line-height: 4.5rem;
+  height: 140px;
 }
 
 .body__text {
@@ -84,4 +89,9 @@
   text-align: center;
   height: 70px;
   margin-top: 10%;
+}
+
+#slider {
+  margin: 0;
+  height: 650px;
 }

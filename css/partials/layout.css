@@ -13,6 +13,11 @@ body,
   font-family: "Libre Baskerville", serif;
 }
 
+main,
+header {
+  background-color: #f1f6fa;
+}
+
 nav,
 footer,
 .body__text,
