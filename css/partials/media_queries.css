@@ -147,6 +147,12 @@
     font-size: 0.9rem;
   }
 
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+
   /* HAMBURGER MENU */
 
   .ul__elements {
@@ -168,7 +174,7 @@
   .open {
     display: block;
     position: absolute;
-    top: -8px;
+    top: -10px;
     right: 10px;
     color: var(--white);
     font-size: 1.8rem;
@@ -177,18 +183,18 @@
   .close {
     display: block;
     position: absolute;
-    top: -8px;
+    top: -10px;
     right: 10px;
     color: var(--white);
     font-size: 1.8rem;
   }
 
   .logo__div {
-    margin-top: 4%;
+    margin-top: 3%;
   }
 
   .logo__div a {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   /* HOME PAGE */
@@ -322,9 +328,9 @@
   }
 }
 
-@media (max-width: 2020px) {
+@media (min-width: 1600px) {
   /* HEADER */
-  /* .header__img {
-    height: 400px;
-  } */
+  .header__img {
+    height: 330px;
+  }
 }

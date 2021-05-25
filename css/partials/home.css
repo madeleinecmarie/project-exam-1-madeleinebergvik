@@ -50,14 +50,13 @@
   border-radius: 10px;
   transition: 0.3s;
   margin: 15px;
-  height: 470px;
+  height: 490px;
 }
 
 .slider__info p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin: auto;
-  margin-top: 7%;
-  width: 90%;
+  width: 94%;
 }
 
 .slick-dots li {
@@ -75,6 +74,10 @@
   color: var(--black);
   text-decoration: none;
   cursor: pointer;
+}
+
+.slider__headline {
+  height: 60px;
 }
 
 .h3__headline {
