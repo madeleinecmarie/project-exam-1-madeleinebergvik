@@ -338,6 +338,10 @@
     margin-top: 6%;
     height: 700px;
   }
+
+  .body__text-section1 {
+    width: 50%;
+  }
 }
 
 @media (min-width: 2300px) {
