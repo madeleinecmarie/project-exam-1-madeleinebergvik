@@ -44,6 +44,7 @@ async function getSliderContent() {
         const jsonResults = await response.json();
         const sliderArray = jsonResults;
         
+        
         sliderArray.forEach(function (element) {
         
             if (element.better_featured_image.media_details.sizes.thumbnail.source_url) {
