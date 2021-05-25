@@ -24,14 +24,11 @@ header {
 }
 
 .logo__div {
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
-.logo__div a {
-  color: var(--white);
-  font-size: 1.3rem;
-  letter-spacing: var(--letter-spacing);
-  text-decoration: none;
+.logo__img {
+  height: 63px;
 }
 
 .ul__elements {
