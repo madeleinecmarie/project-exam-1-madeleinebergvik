@@ -167,7 +167,7 @@
   .open {
     display: block;
     position: absolute;
-    top: 4px;
+    top: 2px;
     right: 10px;
     color: var(--white);
     font-size: 2.3rem;
@@ -176,7 +176,7 @@
   .close {
     display: block;
     position: absolute;
-    top: 4px;
+    top: 2px;
     right: 10px;
     color: var(--white);
     font-size: 2.3rem;
