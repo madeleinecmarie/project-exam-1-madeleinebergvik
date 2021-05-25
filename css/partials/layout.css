@@ -11,6 +11,9 @@
 body,
 .logo__text {
   font-family: "Libre Baskerville", serif;
+}
+
+main {
   background-color: rosybrown;
 }
 
