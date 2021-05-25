@@ -6,12 +6,12 @@
   padding: 0;
   list-style: none;
   letter-spacing: 1px;
-  background-color: rosybrown;
 }
 
 body,
 .logo__text {
   font-family: "Libre Baskerville", serif;
+  background-color: rosybrown;
 }
 
 nav,
