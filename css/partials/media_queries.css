@@ -363,4 +363,8 @@
   .header__img {
     height: 410px;
   }
+
+  .body__text-about {
+    width: 70%;
+  }
 }
