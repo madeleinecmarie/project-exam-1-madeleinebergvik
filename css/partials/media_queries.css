@@ -334,3 +334,10 @@
     height: 360px;
   }
 }
+
+@media (min-width: 1800px) {
+  /* HEADER */
+  .header__img {
+    height: 360px;
+  }
+}
