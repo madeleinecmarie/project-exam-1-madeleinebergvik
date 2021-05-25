@@ -358,6 +358,20 @@
   }
 }
 
+@media (min-width: 2020px) {
+  /* HEADER */
+  .header__img {
+    height: 350px;
+  }
+}
+
+@media (min-width: 2030px) {
+  /* HEADER */
+  .header__img {
+    height: 380px;
+  }
+}
+
 @media (min-width: 2300px) {
   /* HEADER */
   .header__img {
@@ -366,5 +380,12 @@
 
   .body__text-about {
     width: 70%;
+  }
+}
+
+@media (min-width: 1900px) {
+  /* HEADER */
+  .header__img {
+    height: 300px;
   }
 }
