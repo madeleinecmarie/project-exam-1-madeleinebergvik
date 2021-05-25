@@ -346,6 +346,10 @@
   .body__text-section1 {
     width: auto;
   }
+
+  .body__text-about {
+    width: auto;
+  }
 }
 
 @media (min-width: 2300px) {
