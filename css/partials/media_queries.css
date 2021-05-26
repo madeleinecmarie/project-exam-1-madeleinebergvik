@@ -18,6 +18,10 @@
     margin-top: 4%;
   }
 
+  .height__div {
+    height: 30px;
+  }
+
   /* HOME PAGE */
 
   .h1__home {
@@ -40,6 +44,10 @@
 
   .h1__headline {
     font-size: 1.5rem;
+  }
+
+  .body__text-section1 {
+    width: 100%;
   }
 
   /* CONTACT */
@@ -108,8 +116,13 @@
 @media (max-width: 767px) {
   /* LAYOUT */
 
+  .logo__img {
+    height: 55px;
+  }
+
   .h1__headline {
     font-size: 1.4rem;
+    height: 40px;
   }
 
   .h1__headline__js {
@@ -121,7 +134,6 @@
   }
 
   h2 {
-    text-align: center;
     font-size: 1.4rem;
   }
 
@@ -144,6 +156,10 @@
     display: flex;
     justify-content: space-between;
     width: 90%;
+  }
+
+  .height__div {
+    height: 30px;
   }
 
   /* HAMBURGER MENU */
@@ -221,6 +237,10 @@
     height: 300px;
   }
 
+  .body__text-section1 {
+    width: 100%;
+  }
+
   .responsive {
     margin-top: 6%;
   }
@@ -252,9 +272,7 @@
   }
 
   .about__img {
-    height: 400px;
-    margin: 10px;
-    margin-top: 6%;
+    height: 300px;
   }
 
   /* SPECIFIC POSTS */
@@ -288,6 +306,11 @@
     height: auto;
   }
 
+  .h1__headline-contact {
+    height: 20px;
+    font-size: 1.8rem;
+  }
+
   /* LOADER */
 
   .loading {
@@ -316,12 +339,20 @@
   }
 
   .about__img {
-    height: 440px;
-    margin: 40px;
+    height: 380px;
+    margin: 35px;
+  }
+
+  .height__div {
+    height: 20px;
   }
 
   .ul__elements {
     margin-top: 4%;
+  }
+
+  .body__text-section1 {
+    width: 100%;
   }
 }
 
@@ -335,3 +366,71 @@
     margin: auto;
   }
 }
+
+@media (max-width: 320px) {
+  .h1__headline {
+    height: 60px;
+  }
+
+  #name,
+  #email,
+  #subject,
+  #message {
+    width: 270px;
+  }
+
+  .h1__headline-contact {
+    font-size: 1.5rem;
+    height: 40px;
+  }
+
+  .slider__cont {
+    height: 500px;
+  }
+
+  .h2__home {
+    font-size: 1.4rem;
+  }
+
+  .wp-image {
+    height: 300px;
+  }
+
+  .about__img {
+    margin: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .h1__headline-contact {
+    height: 60px;
+    font-size: 1.7rem;
+  }
+}
+
+/* @media (max-width: 280px) {
+  header {
+    height: 240px;
+  }
+
+
+  .h1__home {
+    height: 170px;
+  }
+
+  .hero {
+    height: 600px;
+  }
+
+  .section__1-card {
+    height: 1680px;
+  }
+
+  .beach__img {
+    height: 250px;
+  }
+
+  .slider__cont {
+    height: 550px;
+  }
+} */

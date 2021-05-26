@@ -62,8 +62,13 @@ h1 {
   height: 140px;
 }
 
-h2 {
+h2,
+.h2__home {
   font-size: 1.7rem;
+}
+
+.h2__home {
+  height: 100px;
 }
 
 h3 {
