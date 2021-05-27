@@ -19,7 +19,7 @@ form {
 #email,
 #subject,
 #message {
-  border: 1px solid #d4e0da;
+  border: 1px solid rgba(130, 154, 142, 0.4);
   border-radius: 10px;
   font-size: 0.9rem;
   box-shadow: var(--shadow);
