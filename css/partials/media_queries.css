@@ -1,9 +1,79 @@
+@media (min-width: 1500px) {
+  .header__img {
+    height: 230px;
+  }
+
+  body {
+    width: 1500px;
+    margin: auto;
+  }
+}
+
 /* TABLET */
+
+@media (max-width: 1024px) {
+  /* LAYOUT */
+
+  .height__div {
+    height: 20px;
+  }
+
+  /* NAV */
+
+  .ul__elements {
+    margin-top: 4%;
+  }
+
+  /* HOME */
+
+  .body__text-section1 {
+    width: 100%;
+  }
+
+  /* ABOUT */
+
+  .body__div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+
+  .body__text-about {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+
+  .image {
+    display: flex;
+    align-self: center;
+    width: 90%;
+    margin-top: 2%;
+  }
+
+  .about__img {
+    height: 480px;
+  }
+
+  /* CONTACT */
+
+  .contact__text {
+    width: 50%;
+  }
+}
+
 @media (max-width: 991px) {
   /* LAYOUT */
 
-  .h1__headline__js {
+  .h1__headline__js,
+  .h1__headline-about,
+  .h1__headline-contact,
+  .h1__headline__blog {
     font-size: 2rem;
+  }
+
+  .height__div {
+    height: 30px;
   }
 
   /* HAMBURGER MENU */
@@ -16,10 +86,6 @@
   .ul__elements {
     width: 55%;
     margin-top: 4%;
-  }
-
-  .height__div {
-    height: 30px;
   }
 
   /* HOME PAGE */
@@ -40,10 +106,6 @@
 
   .body__text {
     width: 53%;
-  }
-
-  .h1__headline {
-    font-size: 1.5rem;
   }
 
   .body__text-section1 {
@@ -73,7 +135,6 @@
     flex-direction: column;
     width: 95%;
     margin: auto;
-    margin-top: 8%;
   }
 
   .body__text-about {
@@ -82,8 +143,10 @@
 
   .about__img {
     height: 520px;
-    margin: 40px;
-    margin-bottom: 0;
+  }
+
+  .h1__headline-about {
+    height: 90px;
   }
 
   /* SPECIFIC BLOG POST */
@@ -96,6 +159,12 @@
   .overlay__div img {
     height: 520px;
     margin-top: 30%;
+  }
+
+  /* BLOG POSTS */
+
+  .h1__headline__blog {
+    height: 80px;
   }
 }
 
@@ -116,18 +185,10 @@
 @media (max-width: 767px) {
   /* LAYOUT */
 
-  .logo__img {
-    height: 55px;
-  }
-
-  .h1__headline {
+  /* .h1__headline {
     font-size: 1.4rem;
     height: 40px;
-  }
-
-  .h1__headline__js {
-    font-size: 1.8rem;
-  }
+  } */
 
   .h3__headline {
     font-size: 1.3rem;
@@ -147,9 +208,27 @@
     font-size: 0.9rem;
   }
 
+  .height__div {
+    height: 30px;
+  }
+
   #submit,
   .show__btn {
     font-size: 0.9rem;
+  }
+
+  .h1__home,
+  .h1__headline__blog,
+  .h1__headline__js,
+  .h1__headline-about,
+  .h1__headline-contact {
+    font-size: 1.7rem;
+  }
+
+  /* HEADER */
+
+  .logo__img {
+    height: 55px;
   }
 
   nav {
@@ -158,8 +237,12 @@
     width: 90%;
   }
 
-  .height__div {
-    height: 30px;
+  .logo__div {
+    margin-top: 3%;
+  }
+
+  .logo__div a {
+    font-size: 1.3rem;
   }
 
   /* HAMBURGER MENU */
@@ -184,36 +267,24 @@
     display: block;
     position: absolute;
     top: 2px;
-    right: 10px;
+    right: 8px;
     color: var(--white);
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
 
   .close {
     display: block;
     position: absolute;
-    top: 2px;
-    right: 10px;
+    top: 20px;
+    right: 8px;
     color: var(--white);
-    font-size: 2.3rem;
-  }
-
-  .logo__div {
-    margin-top: 3%;
-  }
-
-  .logo__div a {
-    font-size: 1.3rem;
+    font-size: 2.1rem;
   }
 
   /* HOME PAGE */
 
   .hero {
     height: 500px;
-  }
-
-  .h1__home {
-    font-size: 1.6rem;
   }
 
   .body__text {
@@ -223,7 +294,6 @@
 
   .body__text-section1 {
     font-size: 0.9rem;
-    width: 100%;
   }
 
   .section1 {
@@ -231,14 +301,18 @@
     flex-direction: column;
   }
 
+  .h2__home {
+    text-align: center;
+  }
+
+  .section1__img {
+    margin: auto;
+  }
+
   .beach__img {
     margin: auto;
     margin-top: 40px;
     height: 300px;
-  }
-
-  .body__text-section1 {
-    width: 100%;
   }
 
   .responsive {
@@ -262,9 +336,7 @@
   .body__div {
     display: flex;
     flex-direction: column;
-    width: 80%;
-    margin-top: 8%;
-    margin-bottom: 4%;
+    width: 90%;
   }
 
   .body__text-about {
@@ -273,6 +345,11 @@
 
   .about__img {
     height: 300px;
+  }
+
+  .h1__headline-about {
+    display: block;
+    line-height: 50px;
   }
 
   /* SPECIFIC POSTS */
@@ -308,7 +385,13 @@
 
   .h1__headline-contact {
     height: 20px;
-    font-size: 1.8rem;
+    margin: auto;
+    width: 80%;
+    line-height: 40px;
+  }
+
+  .contact__text {
+    width: 75%;
   }
 
   /* LOADER */
@@ -322,93 +405,65 @@
   .h2__js {
     font-size: 1.25rem;
   }
-}
 
-@media (max-width: 1024px) {
-  .body__div {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 8%;
-    margin-bottom: 4%;
-  }
-
-  .body__text-about {
-    width: 90%;
-    font-size: 0.9rem;
-  }
-
-  .about__img {
-    height: 380px;
-    margin: 35px;
-  }
-
-  .height__div {
-    height: 20px;
-  }
-
-  .ul__elements {
-    margin-top: 4%;
-  }
-
-  .body__text-section1 {
-    width: 100%;
-  }
-}
-
-@media (min-width: 1500px) {
-  .header__img {
-    height: 230px;
-  }
-
-  body {
-    width: 1500px;
-    margin: auto;
-  }
-}
-
-@media (max-width: 320px) {
-  .h1__headline {
+  .h1__headline__blog {
     height: 60px;
   }
 
-  #name,
-  #email,
-  #subject,
-  #message {
-    width: 270px;
+  @media (max-width: 320px) {
+    .h1__headline {
+      height: 60px;
+    }
+
+    #name,
+    #email,
+    #subject,
+    #message {
+      width: 270px;
+    }
+
+    .h1__headline-contact {
+      font-size: 1.5rem;
+      height: 40px;
+    }
+
+    .slider__cont {
+      height: 500px;
+    }
+
+    .h2__home {
+      font-size: 1.2rem;
+    }
+
+    .wp-image {
+      height: 300px;
+    }
+
+    .about__img {
+      margin: 15px;
+    }
+
+    .h1__headline-about {
+      height: 140px;
+    }
   }
 
-  .h1__headline-contact {
-    font-size: 1.5rem;
-    height: 40px;
+  @media (max-width: 375px) {
+    .h1__headline-contact {
+      height: 60px;
+      font-size: 1.7rem;
+    }
+
+    .h2__home {
+      font-size: 1.2rem;
+    }
+
+    .h1__headline-about {
+      height: 140px;
+    }
   }
 
-  .slider__cont {
-    height: 500px;
-  }
-
-  .h2__home {
-    font-size: 1.4rem;
-  }
-
-  .wp-image {
-    height: 300px;
-  }
-
-  .about__img {
-    margin: 15px;
-  }
-}
-
-@media (max-width: 375px) {
-  .h1__headline-contact {
-    height: 60px;
-    font-size: 1.7rem;
-  }
-}
-
-/* @media (max-width: 280px) {
+  /* @media (max-width: 280px) {
   header {
     height: 240px;
   }
@@ -434,3 +489,4 @@
     height: 550px;
   }
 } */
+}
