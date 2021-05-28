@@ -16,11 +16,6 @@ async function getId(blogId) {
         <div class="content__text">${jsonResults.content.rendered}</div>
         `;
 
-          // META TAG
-        document.querySelector('meta[name="description"]').setAttribute(
-        'content',
-        `This blogpage is about HappyTravels journey: ${title.rendered}`);
-
         // IMAGE MODAL
 
         const imgModal = document.querySelectorAll('.wp-image');
@@ -30,6 +25,11 @@ async function getId(blogId) {
         element.onclick = function () {
         imgOverlay.style.display = 'block';
         imgOverlay.innerHTML = `<img src="${element.src}" />`;
+
+        // META TAG
+        document.querySelector('meta[name="description"]').setAttribute(
+        'content',
+        `This blogpage is about HappyTravels journey: ${title.rendered}`);
     };
 });
         imgOverlay.onclick = function () {
