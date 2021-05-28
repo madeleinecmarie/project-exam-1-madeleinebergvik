@@ -185,11 +185,6 @@
 @media (max-width: 767px) {
   /* LAYOUT */
 
-  /* .h1__headline {
-    font-size: 1.4rem;
-    height: 40px;
-  } */
-
   .h3__headline {
     font-size: 1.3rem;
   }
@@ -409,68 +404,86 @@
   .h1__headline__blog {
     height: 60px;
   }
+}
 
-  @media (max-width: 320px) {
-    .h1__headline {
-      height: 60px;
-    }
+@media (max-width: 320px) {
+  /* .h1__headline {
+    height: 60px;
+  } */
 
-    #name,
-    #email,
-    #subject,
-    #message {
-      width: 270px;
-    }
+  /* CONTACT */
 
-    .h1__headline-contact {
-      font-size: 1.5rem;
-      height: 40px;
-    }
-
-    .slider__cont {
-      height: 500px;
-    }
-
-    .h2__home {
-      font-size: 1.2rem;
-    }
-
-    .wp-image {
-      height: 300px;
-    }
-
-    .about__img {
-      margin: 15px;
-    }
-
-    .h1__headline-about {
-      height: 140px;
-    }
+  #name,
+  #email,
+  #subject,
+  #message {
+    width: 270px;
   }
 
-  @media (max-width: 375px) {
-    .h1__headline-contact {
-      height: 60px;
-      font-size: 1.7rem;
-    }
-
-    .h2__home {
-      font-size: 1.2rem;
-    }
-
-    .h1__headline-about {
-      height: 140px;
-    }
+  .h1__headline-contact {
+    font-size: 1.5rem;
+    height: 40px;
   }
 
-  /* @media (max-width: 280px) {
+  /* HOME */
+
+  .h2__home {
+    font-size: 1.2rem;
+  }
+
+  .slider__cont {
+    height: 500px;
+  }
+
+  /* SPECIFIC BLOG */
+
+  .wp-image {
+    height: 300px;
+  }
+
+  /* ABOUT */
+
+  .about__img {
+    margin: 15px;
+  }
+
+  .h1__headline-about {
+    height: 140px;
+  }
+}
+
+@media (max-width: 375px) {
+  /* CONTACT  */
+
+  .h1__headline-contact {
+    height: 60px;
+    font-size: 1.7rem;
+  }
+
+  /* HOME */
+
+  .h2__home {
+    font-size: 1.2rem;
+  }
+
+  /* ABOUT */
+
+  .h1__headline-about {
+    height: 140px;
+  }
+}
+
+@media (max-width: 280px) {
+  /* LAYOUT */
+
   header {
     height: 240px;
   }
 
+  /* HOME */
 
   .h1__home {
-    height: 170px;
+    height: 180px;
   }
 
   .hero {
@@ -488,5 +501,27 @@
   .slider__cont {
     height: 550px;
   }
-} */
+
+  /* BLOG POSTS */
+
+  .blog__card {
+    height: 530px;
+  }
+
+  /* CONTACT */
+
+  #name,
+  #email,
+  #subject,
+  #message {
+    width: 240px;
+  }
+
+  .height__div-blog {
+    height: 80px;
+  }
+
+  .overlay__div img {
+    height: 320px;
+  }
 }

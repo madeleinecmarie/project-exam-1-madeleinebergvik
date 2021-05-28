@@ -41,7 +41,6 @@ h1 {
   font-weight: var(--bold);
 }
 
-.h1__headline,
 .h1__headline-about {
   font-size: 2.2rem;
   font-weight: var(--bold);
@@ -78,6 +77,10 @@ h3 {
 
 h4 {
   font-size: 1.4rem;
+}
+
+.h5__headline {
+  font-size: 1.3rem;
 }
 
 .body__text,

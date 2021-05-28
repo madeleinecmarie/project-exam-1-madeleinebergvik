@@ -16,6 +16,11 @@ async function getId(blogId) {
         <div class="content__text">${jsonResults.content.rendered}</div>
         `;
 
+          // META TAG
+        document.querySelector('meta[name="description"]').setAttribute(
+        'content',
+        `This blogpage is about HappyTravels journey: ${title.rendered}`);
+
         // IMAGE MODAL
 
         const imgModal = document.querySelectorAll('.wp-image');
@@ -44,13 +49,5 @@ async function getId(blogId) {
 }
 
 getId(id);
-
-
-    // META TAG
-    // document
-    // .querySelector('meta[name="description"]')
-    // .setAttribute(
-    // 'content',
-    // `This blogpage is about HappyTravels journey: ${title.rendered}`);
 
 

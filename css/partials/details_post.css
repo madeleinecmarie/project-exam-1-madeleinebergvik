@@ -70,3 +70,7 @@
   transform: translateY(-3px);
   cursor: pointer;
 }
+
+.height__div-blog {
+  height: 0px;
+}

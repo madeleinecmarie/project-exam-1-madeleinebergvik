@@ -72,8 +72,8 @@ async function getSliderContent() {
             document.querySelector(`.slide${element.id}`).style.backgroundImage = `url(${element.better_featured_image.media_details.sizes.large.source_url})`;
             } else {
             document.querySelector('#slider').innerHTML += `
-            <div class="h4__headline">   
-            <h4>${element.title.rendered}</h4>
+            <div class="h5__headline">   
+            <h5>${element.title.rendered}</h5>
             </div>
             `;
             }
