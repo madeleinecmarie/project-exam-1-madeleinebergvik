@@ -10,11 +10,12 @@ async function getId(blogId) {
         const response = await fetch('https://noroffcors.herokuapp.com/https://travelapi.mcmo.tech/wp-json/wp/v2/posts/' + blogId);
         const jsonResults = await response.json();
       
-        // META TAG
+        document.title = jsonResults.title.rendered;
+
+          // META TAG
         document.querySelector('meta[name="description"]').setAttribute(
         'content',
-        `This blogpage is about HappyTravels journey: ${jsonResults.title.rendered}`);
-        document.title = jsonResults.title.rendered;
+        `This blog post is about HappyTravels journey: ${jsonResults.title.rendered}`);
 
         document.querySelector('.detail__container').innerHTML = `
         <h1 class="h1__headline__js">${jsonResults.title.rendered}</h1>
