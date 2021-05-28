@@ -27,9 +27,10 @@ async function getId(blogId) {
         imgOverlay.innerHTML = `<img src="${element.src}" />`;
 
         // META TAG
+
         document.querySelector('meta[name="description"]').setAttribute(
         'content',
-        `This blogpage is about HappyTravels journey: ${title.rendered}`);
+        `This blogpage is about HappyTravels journey: ${title}`);
     };
 });
         imgOverlay.onclick = function () {
