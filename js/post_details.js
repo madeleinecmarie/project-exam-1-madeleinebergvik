@@ -11,6 +11,11 @@ async function getId(blogId) {
         const jsonResults = await response.json();
       
         document.title = jsonResults.title.rendered;
+          // META TAG
+        document.querySelector('meta[name="description"]').setAttribute(
+        'content',
+        `This blogpage is about HappyTravels journey: ${jsonResults.title.rendered}`);
+
         document.querySelector('.detail__container').innerHTML = `
         <h1 class="h1__headline__js">${jsonResults.title.rendered}</h1>
         <div class="content__text">${jsonResults.content.rendered}</div>
@@ -26,9 +31,6 @@ async function getId(blogId) {
         imgOverlay.style.display = 'block';
         imgOverlay.innerHTML = `<img src="${element.src}" />`;
 
-        // META TAG
-        document.querySelector('meta[name="description"]').setAttribute('content', 
-        `This blogpage is about HappyTravels journey: ${title}`);
     };
 });
         imgOverlay.onclick = function () {
