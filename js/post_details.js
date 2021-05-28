@@ -11,8 +11,8 @@ async function getId(blogId) {
         const jsonResults = await response.json();
       
         document.title = jsonResults.title.rendered;
-
-          // META TAG
+        
+        // META TAG
         document.querySelector('meta[name="description"]').setAttribute(
         'content',
         `This blog post is about HappyTravels journey: ${jsonResults.title.rendered}`);
