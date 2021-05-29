@@ -41,6 +41,10 @@
   .contact__text {
     width: 50%;
   }
+
+  .overlay__div img {
+    margin-top: 30%;
+  }
 }
 
 @media (max-width: 991px) {
@@ -265,7 +269,7 @@
 
   .overlay__div img {
     height: 400px;
-    margin-top: 50%;
+    margin-top: 40%;
   }
 
   /* CONTACT */
