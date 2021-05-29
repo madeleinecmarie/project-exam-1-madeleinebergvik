@@ -3,7 +3,7 @@
 }
 
 .body__text-about {
-  width: 43%;
+  width: 45%;
   margin: auto;
 }
 
@@ -15,5 +15,5 @@
 .body__div {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 85%;
 }
