@@ -1,8 +1,8 @@
 // HAMBURGER MENU 
 
-const navMenu = document.querySelector('.ul__elements');
 const closing = document.querySelector('.close');
 const opening = document.querySelector('.open');
+const navMenu = document.querySelector('.ul__elements');
 
 opening.addEventListener('click', show);
 closing.addEventListener('click', close);

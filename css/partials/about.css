@@ -1,3 +1,7 @@
+.h1__headline-about {
+  height: 130px;
+}
+
 .body__text-about {
   width: 43%;
   margin: auto;
@@ -11,5 +15,5 @@
 .body__div {
   display: flex;
   justify-content: space-between;
-  width: 85%;
+  width: 90%;
 }

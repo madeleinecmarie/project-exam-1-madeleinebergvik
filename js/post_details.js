@@ -23,7 +23,6 @@ async function getId(blogId) {
         `;
 
         // IMAGE MODAL
-
         const imgModal = document.querySelectorAll('.wp-image');
         const imgOverlay = document.querySelector('.overlay__div');
         

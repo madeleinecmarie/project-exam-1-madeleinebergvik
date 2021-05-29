@@ -32,7 +32,8 @@ footer,
 .content__text,
 .show__btn,
 .slider__info p,
-.alert {
+.alert,
+.contact__text {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -41,25 +42,12 @@ h1 {
   font-weight: var(--bold);
 }
 
-.h1__headline-about {
-  font-size: 2.2rem;
-  font-weight: var(--bold);
-  text-align: center;
-  height: 130px;
-}
-
-.h1__headline-contact {
-  font-size: 2.2rem;
-  font-weight: var(--bold);
-  text-align: center;
-  height: 20px;
-}
-
+.h1__headline-about,
+.h1__headline-contact,
 .h1__headline__blog {
   font-size: 2.2rem;
-  font-weight: bold;
+  font-weight: var(--bold);
   text-align: center;
-  height: 140px;
 }
 
 h2,
@@ -85,7 +73,8 @@ h4 {
 
 .body__text,
 .body__text-section1,
-.body__text-about {
+.body__text-about,
+.contact__text {
   font-size: 1rem;
   line-height: var(--line-height);
 }

@@ -1,9 +1,11 @@
-.main__contact {
-  height: 900px;
+.h1__headline-contact {
+  height: 60px;
 }
 
 .contact__text {
   width: 30%;
+  margin: auto;
+  text-align: center;
 }
 
 form {

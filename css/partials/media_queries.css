@@ -1,8 +1,4 @@
 @media (min-width: 1500px) {
-  .header__img {
-    height: 230px;
-  }
-
   body {
     width: 1500px;
     margin: auto;
@@ -12,18 +8,6 @@
 /* TABLET */
 
 @media (max-width: 1024px) {
-  /* LAYOUT */
-
-  .height__div {
-    height: 20px;
-  }
-
-  /* NAV */
-
-  .ul__elements {
-    margin-top: 4%;
-  }
-
   /* HOME */
 
   .body__text-section1 {
@@ -33,15 +17,12 @@
   /* ABOUT */
 
   .body__div {
-    display: flex;
     flex-direction: column;
-    width: 90%;
     margin: auto;
   }
 
   .body__text-about {
     width: 90%;
-    font-size: 0.9rem;
   }
 
   .image {
@@ -59,7 +40,6 @@
 
   .contact__text {
     width: 50%;
-    margin-top: 4%;
   }
 }
 
@@ -70,11 +50,12 @@
   .h1__headline-about,
   .h1__headline-contact,
   .h1__headline__blog {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 
-  .height__div {
-    height: 30px;
+  .h1__headline-about,
+  .h1__headline__blog {
+    height: 80px;
   }
 
   /* HAMBURGER MENU */
@@ -86,7 +67,7 @@
 
   .ul__elements {
     width: 55%;
-    margin-top: 4%;
+    margin-top: 5%;
   }
 
   /* HOME PAGE */
@@ -95,14 +76,9 @@
     font-size: 2.3rem;
   }
 
-  .section1 {
-    display: flex;
-    flex-direction: column;
-  }
-
   .beach__img {
     margin-top: 50px;
-    height: 500px;
+    height: 450px;
   }
 
   .body__text {
@@ -113,45 +89,11 @@
     width: 100%;
   }
 
-  /* CONTACT */
-  #name,
-  #email,
-  #subject,
-  #message {
-    width: 300px;
-  }
-
-  form {
-    margin-top: 4%;
-  }
-
-  .contact__text {
-    margin-top: 4%;
-  }
-
-  .main__contact {
-    height: auto;
-  }
-
   /* ABOUT  */
 
   .body__div {
-    display: flex;
     flex-direction: column;
-    width: 95%;
     margin: auto;
-  }
-
-  .body__text-about {
-    width: 90%;
-  }
-
-  .about__img {
-    height: 520px;
-  }
-
-  .h1__headline-about {
-    height: 90px;
   }
 
   /* SPECIFIC BLOG POST */
@@ -164,12 +106,6 @@
   .overlay__div img {
     height: 520px;
     margin-top: 30%;
-  }
-
-  /* BLOG POSTS */
-
-  .h1__headline__blog {
-    height: 80px;
   }
 }
 
@@ -194,33 +130,6 @@
     width: 100%;
   }
 
-  .h3__headline {
-    font-size: 1.3rem;
-  }
-
-  h2 {
-    font-size: 1.4rem;
-  }
-
-  .bold__text {
-    font-size: 1rem;
-  }
-
-  .body__text-about,
-  .body__text,
-  .contact__text {
-    font-size: 0.9rem;
-  }
-
-  .height__div {
-    height: 30px;
-  }
-
-  #submit,
-  .show__btn {
-    font-size: 0.9rem;
-  }
-
   .h1__home,
   .h1__headline__blog,
   .h1__headline__js,
@@ -229,25 +138,45 @@
     font-size: 1.7rem;
   }
 
+  h2,
+  .h2__home,
+  .h2__js {
+    font-size: 1.5rem;
+  }
+
+  .h3__headline {
+    font-size: 1.4rem;
+  }
+
+  .body__text,
+  .body__text-section1,
+  .text__2,
+  #submit,
+  .show__btn {
+    font-size: 0.9rem;
+  }
+
+  .bold__text {
+    font-size: 1rem;
+  }
+
+  .height__div {
+    height: 30px;
+  }
+
   /* HEADER */
 
   .logo__img {
     height: 55px;
   }
 
-  nav {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-  }
-
-  .logo__div {
-    margin-top: 3%;
-  }
-
   /* HAMBURGER MENU */
 
   .ul__elements {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--green);
     height: 105vh;
     position: fixed;
     top: 0;
@@ -255,28 +184,24 @@
     right: 0;
     left: 0;
     z-index: 1;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: var(--green);
     display: none;
     margin: 0;
   }
 
   .open {
-    display: block;
-    position: absolute;
     top: 2px;
     right: 8px;
-    color: var(--white);
-    font-size: 2.1rem;
   }
 
   .close {
-    display: block;
-    position: absolute;
     top: 20px;
     right: 8px;
+  }
+
+  .open,
+  .close {
+    display: block;
+    position: absolute;
     color: var(--white);
     font-size: 2.1rem;
   }
@@ -289,34 +214,14 @@
 
   .body__text {
     width: 80%;
-    font-size: 0.9rem;
-  }
-
-  .body__text-section1 {
-    font-size: 0.9rem;
-  }
-
-  .section1 {
-    display: flex;
-    flex-direction: column;
   }
 
   .h2__home {
     text-align: center;
   }
 
-  .section1__img {
-    margin: auto;
-  }
-
   .beach__img {
-    margin: auto;
-    margin-top: 40px;
     height: 300px;
-  }
-
-  .responsive {
-    margin-top: 6%;
   }
 
   .slider__headline {
@@ -328,16 +233,10 @@
   }
 
   .h3__headline {
-    margin-top: 20%;
+    margin-top: 30%;
   }
 
   /* ABOUT  */
-
-  .body__div {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
 
   .body__text-about {
     width: 100%;
@@ -345,6 +244,7 @@
 
   .about__img {
     height: 300px;
+    margin-top: 4%;
   }
 
   .h1__headline-about {
@@ -355,22 +255,12 @@
 
   /* SPECIFIC POSTS */
 
-  .text__2 {
-    margin: auto;
-    font-size: 0.9rem;
-    width: 95%;
-  }
-
   .blocks-gallery-grid {
-    display: flex;
     flex-direction: column;
-    margin: auto;
-    margin-top: 10%;
   }
 
   .wp-image {
     height: 350px;
-    margin: 10px;
   }
 
   .overlay__div img {
@@ -380,29 +270,25 @@
 
   /* CONTACT */
 
-  .main__contact {
-    height: auto;
-  }
-
-  .h1__headline-contact {
-    height: 45px;
-    margin: auto;
-    width: 75%;
-    line-height: 30px;
-  }
-
   .contact__text {
     width: 75%;
   }
 
-  /* BLOG POSTS */
-
-  .h2__js {
-    font-size: 1.25rem;
+  .h1__headline-contact {
+    width: 100%;
   }
 
-  .h1__headline__blog {
-    height: 60px;
+  #name,
+  #email,
+  #subject,
+  #message {
+    width: 330px;
+  }
+}
+
+@media (max-width: 375px) {
+  .h1__headline-contact {
+    height: 90px;
   }
 }
 
@@ -413,18 +299,13 @@
   #email,
   #subject,
   #message {
-    width: 270px;
-  }
-
-  .h1__headline-contact {
-    font-size: 1.5rem;
-    height: 40px;
+    width: 250px;
   }
 
   /* HOME */
 
-  .h2__home {
-    font-size: 1.2rem;
+  .h1__home {
+    height: 190px;
   }
 
   .slider__cont {
@@ -439,63 +320,20 @@
 
   /* ABOUT */
 
-  .about__img {
-    margin: 15px;
-  }
-
   .h1__headline-about {
     height: 140px;
   }
-}
-
-@media (max-width: 411px) {
-  /* CONTACT */
 
   .h1__headline-contact {
-    height: 80px;
-  }
-}
-
-@media (max-width: 375px) {
-  /* CONTACT  */
-
-  .h1__headline-contact {
-    height: 80px;
-    font-size: 1.7rem;
-  }
-
-  /* HOME */
-
-  .h2__home {
-    font-size: 1.2rem;
-  }
-
-  /* ABOUT */
-
-  .h1__headline-about {
-    height: 140px;
+    height: 90px;
   }
 }
 
 @media (max-width: 280px) {
-  /* LAYOUT */
-
-  header {
-    height: 240px;
-  }
-
   /* HOME */
-
-  .h1__home {
-    height: 180px;
-  }
 
   .hero {
     height: 600px;
-  }
-
-  .section__1-card {
-    height: 1680px;
   }
 
   .beach__img {
@@ -512,25 +350,7 @@
     height: 530px;
   }
 
-  /* CONTACT */
-
-  #name,
-  #email,
-  #subject,
-  #message {
-    width: 240px;
-  }
-
-  .h1__headline-contact {
-    height: 70px;
-    width: 80%;
-  }
-
   /* SPECIFIC BLOG */
-
-  .height__div-blog {
-    height: 80px;
-  }
 
   .overlay__div img {
     height: 320px;

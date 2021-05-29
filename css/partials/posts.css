@@ -1,3 +1,7 @@
+.h1__headline__blog {
+  height: 140px;
+}
+
 .blog__container {
   margin: auto;
   display: flex;
